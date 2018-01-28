@@ -41,23 +41,41 @@ group :development, :test do
   gem 'selenium-webdriver'
 
   # Application
+  # Use responders as respond format
   gem 'responders'
+  # Use devise as authentication
   gem 'devise'
+  # Use bootstrap-sass as bootstrap
   gem 'bootstrap-sass'
+  # Use carrierwave as file upload
   gem 'carrierwave'
+  # Use jquery-rails as jquery
   gem 'jquery-rails'
+  # Use angularjs-rails as angular
   gem 'angularjs-rails'
+  # Use bramekan as security scanner
   gem 'brakeman'
 
   # Test Suit 
+  # Use Rspec as test framework
   gem 'rspec-rails'
+  # Use shoulda to make test more easy to read
+  gem 'shoulda'
+  # Use cucumber as BDD 
+  gem 'cucumber'
+  # Use robocop as code quality
   gem 'rubocop'
+  # Use simplecov as code coverage
   gem 'simplecov'
+  # Use rails_best_practices as best practices
   gem 'rails_best_practices'
 
-  # Fake date 
+  # Fake date
+  # Use faker to fake data 
   gem 'ffaker'
+  # Use factory_girl_rails as factories
   gem 'factory_girl_rails'
+  # Use database_cleaner to clean database
   gem 'database_cleaner'
 end
 
